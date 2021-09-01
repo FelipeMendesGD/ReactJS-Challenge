@@ -18,9 +18,9 @@ export default function Repos() {
     return (
         <div className="user-container">
             <section>
-                <h1>Teste: </h1>
+                <h1>Teste: {user[1].archive_url} </h1>
             </section>
         </div>
     );
-    //{user[1].archive_url}
+    //
 }
